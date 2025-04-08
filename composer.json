@@ -1,0 +1,22 @@
+{
+    "name": "osio/magento-multiple-category-images",
+    "description": "Magento 2 module that allows multiple images to be associated with categories",
+    "type": "magento2-module",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "require": {
+        "php": "~8.1.0||~8.2.0",
+        "magento/framework": "*",
+        "magento/module-catalog": "*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Osio\\MultipleCategoryImages\\": ""
+        }
+    }
+}
